@@ -8,6 +8,7 @@ import FinalCTA from "@/components/final-cta"
 import Footer from "@/components/footer"
 
 export default function Home() {
+  throw new Error("Test runtime error");  // <- add this line
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
